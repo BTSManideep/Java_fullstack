@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-image: url('login.jpg'); background-repeat: no-repeat; background-size: cover;">
+    <div align="center">
+        <form action="register" method="POST">
+            <fieldset>
+                <legend><h1>Registration Form</h1></legend>
+
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="first_name" required><br><br>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="last_name" required><br><br>
+
+                <input type="tel" name="phone" placeholder="Mobile Number" required><br><br>
+
+                <input type="email" name="email" placeholder="Email ID" required><br><br>
+
+                <input type="password" name="password" placeholder="Password" required><br><br>
+
+                <label>Gender:</label><br>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label><br><br>
+
+                <label for="dob">Enter DOB:</label>
+                <input type="date" id="dob" name="dob" required><br><br>
+
+                <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label><br><br>
+
+                <button type="submit">Register</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
